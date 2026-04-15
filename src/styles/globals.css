@@ -1,0 +1,102 @@
+/* ─────────────────────────────────────
+   globals.css  –  CSS variables & resets
+   ───────────────────────────────────── */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand colours */
+  --primary:        #0A6EB4;
+  --primary-dark:   #0A2540;
+  --secondary:      #2BB673;
+  --accent:         #7ee8a2;
+  --accent-sky:     #38bdf8;
+
+  /* Neutrals */
+  --bg:             #F7FAFC;
+  --white:          #ffffff;
+  --text-dark:      #0A2540;
+  --text-body:      #4b5563;
+  --text-muted:     #6b7280;
+  --border:         #e8f0fa;
+  --border-light:   #e5e7eb;
+
+  /* Gradients */
+  --grad-hero:      linear-gradient(135deg, #0A2540 0%, #0A6EB4 50%, #1a9e6e 100%);
+  --grad-primary:   linear-gradient(135deg, #0A6EB4, #2BB673);
+  --grad-dark:      linear-gradient(135deg, #0A2540, #0A6EB4);
+  --grad-text:      linear-gradient(90deg, #7ee8a2, #38bdf8);
+
+  /* Shadows */
+  --shadow-sm:      0 4px 24px rgba(10,110,180,0.06);
+  --shadow-md:      0 8px 40px rgba(10,110,180,0.12);
+  --shadow-lg:      0 16px 56px rgba(10,110,180,0.20);
+
+  /* Typography */
+  --font-display:   'Playfair Display', serif;
+  --font-body:      'DM Sans', sans-serif;
+
+  /* Spacing */
+  --section-pad:    80px 5%;
+  --max-w:          1200px;
+  --radius-card:    20px;
+  --radius-btn:     50px;
+  --nav-h:          70px;
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text-body);
+  -webkit-font-smoothing: antialiased;
+}
+button { cursor: pointer; font-family: inherit; }
+a { text-decoration: none; }
+img { max-width: 100%; display: block; }
+
+/* ── Utilities ── */
+.container { max-width: var(--max-w); margin: 0 auto; padding: 0 5%; }
+.section    { padding: var(--section-pad); }
+
+.page-hero {
+  background: var(--grad-dark);
+  padding: 80px 5% 60px;
+  text-align: center;
+}
+.page-hero__tag {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.page-hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--white);
+  font-weight: 700;
+}
+.page-hero__sub {
+  font-size: 16px;
+  color: rgba(255,255,255,0.7);
+  max-width: 500px;
+  margin: 16px auto 0;
+  line-height: 1.7;
+}
+
+/* ── Section header ── */
+.section-header        { text-align: center; margin-bottom: 56px; }
+.section-header__tag   { font-size: 13px; color: var(--secondary); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px; }
+.section-header__title { font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.8rem); color: var(--text-dark); font-weight: 700; margin-bottom: 16px; }
+.section-header__sub   { font-size: 16px; color: var(--text-muted); max-width: 520px; margin: 0 auto; line-height: 1.7; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  :root { --section-pad: 56px 5%; }
+  .desktop-nav { display: none !important; }
+  .hamburger   { display: block !important; }
+}
