@@ -13,13 +13,13 @@ import Home        from "./pages/Home";
 import About       from "./pages/About";
 import Services    from "./pages/Services";
 import Hospitals   from "./pages/Hospitals";
-import Appointment from "./pages/Appointment";
+import Connect from "./pages/Appointment";
 import Contact     from "./pages/Contact";
 
 // Global styles
 import "./styles/globals.css";
 
-const PAGES = { Home, About, Services, Hospitals, Appointment, Contact };
+const PAGES = { Home, About, Services, Hospitals, Connect, Contact };
 
 export default function App() {
   const [activePage, setActivePage] = useState("Home");

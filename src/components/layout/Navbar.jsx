@@ -155,7 +155,7 @@ export default function Navbar({ active, setActive }) {
           ))}
 
           <Button
-            onClick={() => navigate("Appointment")}
+            onClick={() => navigate("Connect")}
             style={{ padding: "9px 22px", fontSize: 13.5 }}
           >
             Book Now
