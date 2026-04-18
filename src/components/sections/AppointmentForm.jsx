@@ -39,7 +39,7 @@ export default function AppointmentForm() {
         maxWidth: 700, margin: "0 auto",
       }}>
         <h2 style={{ fontFamily: "var(--font-display)", fontSize: 24, color: "var(--text-dark)", fontWeight: 700, marginBottom: 32 }}>
-          Appointment Request Form
+          Contact Form
         </h2>
 
         {FIELDS.map(f => (

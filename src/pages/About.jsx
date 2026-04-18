@@ -101,7 +101,7 @@ function ContentBlock({ isMobile = false }) {
         </h2>
         <p style={{ fontSize: 15, color: "var(--text-body)", lineHeight: 1.85, marginBottom: 16 }}>
           Dr. Shraddha Agrawal is a highly skilled and compassionate anaesthesiologist
-          with over <strong>18 years of clinical expertise</strong> in perioperative
+          with over <strong>20+ years of clinical expertise</strong> in perioperative
           care, critical care support, and advanced anaesthesia techniques. She completed
           her postgraduate training at Gandhi Medical College, Bhopal (1999–2002).
         </p>
@@ -145,7 +145,7 @@ function ContentBlock({ isMobile = false }) {
         <SectionTitle>🏆 Experience Highlights</SectionTitle>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: 12 }}>
           {[
-            { icon: "🩺", label: "18+ years in anaesthesia" },
+            { icon: "🩺", label: "20+ years in anaesthesia" },
             { icon: "🏥", label: "Extensive OT & ICU experience" },
             { icon: "⚡", label: "High-risk case expertise" },
             { icon: "🎓", label: "Active DNB program guide" },
@@ -206,7 +206,7 @@ function MobileProfileCard() {
           {DOCTOR.qualifications}
         </p>
         <p style={{ fontSize: 12, color: "rgba(255,255,255,0.7)", marginTop: 4 }}>
-          18+ Years · Raipur, CG
+          20+ Years · Raipur, CG
         </p>
       </div>
     </div>
@@ -218,7 +218,7 @@ function InfoPills() {
   const pills = [
     ["📍", DOCTOR.location],
     ["🏥", "MMI Narayana & DKS Hospital"],
-    ["📅", "18+ Years Experience"],
+    ["📅", "20+ Years Experience"],
     ["🎓", "PG Teacher, DNB Guide"],
   ];
   return (
@@ -243,7 +243,7 @@ function MobileInfoGrid() {
   const pills = [
     ["📍", "Raipur, CG"],
     ["🏥", "MMI Narayana & DKS"],
-    ["📅", "18+ Yrs Experience"],
+    ["📅", "20+ Yrs Experience"],
     ["🎓", "PG Teacher & DNB Guide"],
   ];
   return (

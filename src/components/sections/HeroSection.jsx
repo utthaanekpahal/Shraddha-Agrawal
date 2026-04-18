@@ -5,7 +5,7 @@
 import Button from "../ui/Button";
 import { DOCTOR } from "../../data/constants";
 
-const PILLS = ["📍 Raipur, CG", "🏥 MMI Narayana", "🎓 DNB Guide", "⭐ 18+ Yrs"];
+const PILLS = ["📍 Raipur, CG", "🏥 DKS Super Speciality Hospital", "🎓 DNB Guide", "⭐ 20+ Yrs"];
 
 export default function HeroSection({ setActive }) {
   return (
@@ -53,7 +53,7 @@ export default function HeroSection({ setActive }) {
           </h1>
 
           <p style={{ fontSize: 17, color: "rgba(255,255,255,0.8)", marginBottom: 20, fontWeight: 500, animation: "fadeInUp 0.7s ease 0.2s both" }}>
-            Senior Anaesthesiologist · 18+ Years Experience · DNB Guide
+            Senior Anaesthesiologist · 20+ Years Experience · DNB Guide
           </p>
 
           <p style={{
@@ -136,7 +136,7 @@ function AvailableBadge() {
 }
 
 function DoctorCard() {
-  const grid = [["18+","Years Exp."],["5000+","Surgeries"],["2","Hospitals"],["DNB","Guide"]];
+  const grid = [["20+","Years Exp."],["5000+","Surgeries"],["2","Hospitals"],["DNB","Guide"]];
   return (
     <div style={{
       width: 320,

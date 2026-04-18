@@ -7,16 +7,16 @@ export const DOCTOR = {
   name: "Dr. Shraddha Agrawal",
   title: "Senior Anaesthesiologist",
   qualifications: "MD Anaesthesiology",
-  experience: "18+",
-  phone: "91XXXXXXXXXX",         // ← replace with real number
-  whatsapp: "91XXXXXXXXXX",      // ← replace with real number
+  experience: "20+",
+  phone: "919827407526",         // ← replace with real number
+  whatsapp: "919827407526",      // ← replace with real number
   email: "doctor@example.com",   // ← replace with real email
-  linkedin: "https://www.linkedin.com/in/shraddha-agrawal",
+  linkedin: "https://www.linkedin.com/in/dr-shraddha-agrawal-a65549170?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   location: "Raipur, Chhattisgarh",
   address: "C/o MMI Narayana Multispeciality Hospital, Pachpedi Naka, Near Lalpur, Dhamtari Road, Raipur – 492001, Chhattisgarh",
 };
 
-export const NAV_LINKS = ["Home", "About", "Services", "Hospitals", "Appointment", "Contact"];
+export const NAV_LINKS = ["Home", "About", "Services", "Hospitals", "Connect", "Contact"];
 
 export const SERVICES = [
   {
@@ -73,7 +73,7 @@ export const HOSPITALS = [
 ];
 
 export const STATS = [
-  { key: "exp",  target: 18,   suffix: "+",  label: "Years Experience",      icon: "⏰" },
+  { key: "exp",  target: 20,   suffix: "+",  label: "Years Experience",      icon: "⏰" },
   { key: "surg", target: 5000, suffix: "+",  label: "Surgeries Assisted",    icon: "🩺" },
   { key: "hosp", target: 2,    suffix: "",   label: "Premier Hospitals",     icon: "🏥" },
   { key: "pg",   target: 100,  suffix: "+",  label: "Students Mentored",     icon: "🎓" },
@@ -82,7 +82,7 @@ export const STATS = [
 export const FAQS = [
   {
     q: "Is anaesthesia safe?",
-    a: "Modern anaesthesia is extremely safe. With over 18 years of experience and rigorous pre-operative assessment, Dr. Agrawal ensures every patient receives the safest possible care tailored to their medical profile.",
+    a: "Modern anaesthesia is extremely safe. With over 20+ years of experience and rigorous pre-operative assessment, Dr. Agrawal ensures every patient receives the safest possible care tailored to their medical profile.",
   },
   {
     q: "Will I feel pain during surgery?",
@@ -123,7 +123,7 @@ export const SPECIALIZATIONS = [
 ];
 
 export const WHY_CHOOSE = [
-  { icon: "✔", title: "18+ Years Clinical Experience", desc: "Extensive hands-on experience across diverse surgical specialties." },
+  { icon: "✔", title: "20+ Years Clinical Experience", desc: "Extensive hands-on experience across diverse surgical specialties." },
   { icon: "🎓", title: "PG Teacher & DNB Guide", desc: "Actively shaping the next generation of anaesthesiologists." },
   { icon: "🏥", title: "Top Hospital Affiliations", desc: "Practicing at both corporate and government super-speciality centres." },
   { icon: "❤️", title: "Patient-First Approach", desc: "Every decision is driven by patient safety and comfort." },

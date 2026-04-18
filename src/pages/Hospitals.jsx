@@ -41,6 +41,7 @@ function HospitalCard({ hospital: h }) {
       padding: "40px 48px", marginBottom: 32,
       boxShadow: "var(--shadow-md)", border: "1px solid var(--border)",
       display: "flex", gap: 32, alignItems: "center", flexWrap: "wrap",
+      
       transition: "box-shadow 0.25s, transform 0.25s",
     }}
       onMouseEnter={e => { e.currentTarget.style.boxShadow = "var(--shadow-lg)"; e.currentTarget.style.transform = "translateY(-4px)"; }}
@@ -64,7 +65,7 @@ function HospitalCard({ hospital: h }) {
           fontSize: "clamp(1.2rem, 2vw, 1.7rem)",
           color: "var(--text-dark)", fontWeight: 700, marginBottom: 8,
         }}>{h.name}</h2>
-        <p style={{ fontSize: 14, color: "var(--text-muted)", marginBottom: 12 }}>📍 {h.location}</p>
+        <p style={{ fontSize: 14, color: "var(--text-muted)", marginBottom: 12 }}>📍{h.location}</p>
         <p style={{ fontSize: 15, color: "var(--text-body)", lineHeight: 1.75, marginBottom: 20 }}>{h.desc}</p>
         <Button href={h.mapsUrl} target="_blank" rel="noopener noreferrer"
           style={{ fontSize: 13, padding: "9px 22px", display: "inline-flex" }}>

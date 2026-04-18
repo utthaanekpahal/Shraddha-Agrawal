@@ -22,7 +22,7 @@ export default function Footer({ setActive }) {
               SENIOR ANAESTHESIOLOGIST
             </p>
             <p style={{ fontSize: 14, color: "rgba(255,255,255,0.55)", lineHeight: 1.7 }}>
-              18+ years of dedicated clinical expertise in anaesthesia, critical care, and surgical support in Raipur.
+              20+ years of dedicated clinical expertise in anaesthesia, critical care, and surgical support in Raipur.
             </p>
           </div>
 

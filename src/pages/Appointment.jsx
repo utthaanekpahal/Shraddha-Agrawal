@@ -9,7 +9,7 @@ export default function Appointment() {
     <div style={{ paddingTop: 70 }}>
       <PageHero
         tag="CONSULTATION"
-        title="Book an Appointment"
+        title="Lets Connect"
         subtitle="Schedule a consultation with Dr. Shraddha Agrawal at your convenience."
       />
       <div style={{ padding: "72px 5%" }}>
