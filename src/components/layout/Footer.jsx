@@ -60,11 +60,59 @@ export default function Footer({ setActive }) {
         </div>
 
         {/* ── Bottom bar ── */}
-        <div style={{ borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: 24, textAlign: "center" }}>
-          <p style={{ fontSize: 13, color: "rgba(255,255,255,0.4)" }}>
-            © {year} Dr. Shraddha Agrawal. All rights reserved. · Raipur, Chhattisgarh
-          </p>
-        </div>
+<div
+  style={{
+    borderTop: "1px solid rgba(255,255,255,0.08)",
+    paddingTop: 22,
+    marginTop: 40,
+    textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    gap: 8,
+    alignItems: "center",
+  }}
+>
+  <p
+    style={{
+      fontSize: 13,
+      color: "rgba(255,255,255,0.45)",
+      margin: 0,
+      letterSpacing: "0.3px",
+    }}
+  >
+    © {year} Dr. Shraddha Agrawal · All rights reserved
+  </p>
+
+  <p
+    style={{
+      fontSize: 12,
+      color: "rgba(255,255,255,0.3)",
+      margin: 0,
+      letterSpacing: "0.2px",
+    }}
+  >
+    Raipur, Chhattisgarh
+  </p>
+
+  <p
+    style={{
+      fontSize: 12,
+      margin: 0,
+      color: "rgba(255,255,255,0.35)",
+    }}
+  >
+    Developed by{" "}
+    <a href="https://namanjainottportfolio.netlify.app/"><span
+      style={{
+        color: "rgba(255,255,255,0.6)",
+        fontWeight: 500,
+      }}
+    >
+      Naman Jain
+    </span>
+    </a>
+  </p>
+</div>
       </div>
     </footer>
   );
