@@ -68,7 +68,7 @@ export default function HeroSection({ setActive }) {
 
           {/* CTA buttons */}
           <div style={{ display: "flex", gap: 14, flexWrap: "wrap", animation: "fadeInUp 0.7s ease 0.4s both" }}>
-            <Button onClick={() => setActive("Appointment")}>📅 Book Appointment</Button>
+            <Button onClick={() => setActive("Appointment")}>📅 Lets Connect</Button>
             <Button variant="ghost" onClick={() => setActive("About")}>👩‍⚕️ Learn More</Button>
           </div>
 

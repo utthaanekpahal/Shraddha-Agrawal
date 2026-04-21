@@ -10,7 +10,7 @@ export default function Appointment() {
       <PageHero
         tag="CONSULTATION"
         title="Lets Connect"
-        subtitle="Schedule a consultation with Dr. Shraddha Agrawal at your convenience."
+        subtitle="Connect with Dr. Shraddha Agrawal at your convenience."
       />
       <div style={{ padding: "72px 5%" }}>
         <AppointmentForm />

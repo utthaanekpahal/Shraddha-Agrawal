@@ -21,8 +21,8 @@ export default function CTABanner({ setActive }) {
           provides world-class anaesthesia support tailored to your needs.
         </p>
         <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
-          <Button onClick={() => setActive("Appointment")}>📅 Book Appointment</Button>
-          <Button variant="outline" onClick={() => setActive("Contact")}>📞 Contact Us</Button>
+          <Button onClick={() => setActive("Appointment")}>📅 Contact Us</Button>
+          <Button variant="outline" onClick={() => setActive("Contact")}>📞 Call Us</Button>
         </div>
       </AnimatedSection>
     </section>

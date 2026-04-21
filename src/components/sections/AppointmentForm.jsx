@@ -66,7 +66,7 @@ export default function AppointmentForm() {
         {/* Message */}
         <div style={{ marginBottom: 28 }}>
           <label style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#374151", marginBottom: 8 }}>
-            Message / Reason for Consultation
+            Message / Reason for 
           </label>
           <textarea
             name="msg" value={form.msg} onChange={handleChange} rows={4}
